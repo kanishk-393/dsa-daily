@@ -17,8 +17,7 @@ public:
             sort(group.begin(),group.end());
             int median=group[group.size() / 2];    
             for(int x:group){
-            ans += llabs(1LL * x - median);
-
+    ans += abs(x - median);
             }
                     }
 return ans;
